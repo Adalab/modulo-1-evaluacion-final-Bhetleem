@@ -33,7 +33,11 @@
         & a{
             color: $color-main-darkgreen;
             font-weight: bold;   
-        }
+        }      
     }
+    &__button:active{
+        transform: scale(1.5);
+    }
+    }
+   
     
-}
