@@ -1,0 +1,56 @@
+.footer{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    background-color: $color-third-drakgrey;
+    font-family: $font-main;
+    color: white;
+    padding: 2rem;
+    & a{
+        color: white;
+        
+    }
+    &__socialmedia{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & a:hover{
+            color: $color-main-darkgreen;
+            margin: 0.3rem;
+        }
+    }
+    &__articles{
+        display: flex;
+        flex-direction: column;       
+        justify-content: center;
+        align-items: center;
+        & a:hover{
+            color: $color-main-darkgreen;
+            margin: 0.3rem;
+        }
+    }
+
+    &__c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        ;
+        &__weloverun{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    }
+   
+   
+
+
+.love{
+    
+}

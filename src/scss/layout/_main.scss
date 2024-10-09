@@ -1,0 +1,57 @@
+.main{
+    background-color: $color-second-lightgreen;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    &__slogan{
+        text-align: center;
+        font-family: $font-second;
+        color: $color-third-drakgrey;
+        font-weight: bold;
+    }
+    &__title{
+        text-align: center;
+        font-family: $font-second;
+        font-weight: bold;
+        font-size: 1.375rem;
+        
+    }
+    &__gridcontainer{
+        display: grid;
+        gap: 2rem;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        margin-top: 2rem;
+        font-weight: bold;
+        font-family: $font-second;
+        & img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 5px 5px 20px rgba($color: #000000, $alpha: 0.5)
+        }
+        & article{
+            text-align: center;
+        }
+    }
+    &__button{
+        font-family: $font-main;
+        font-size: 1.7rem;
+        color: $color-main-darkgreen;
+        border: solid $color-main-darkgreen 2px;
+        border-radius: 1.75rem;
+        width: 60%;
+        height: 3.5rem;
+        text-align: center;
+        margin-top: 1rem;
+        background-color: $color-main-darkgreen;
+        & a{
+            color: white;   
+        }
+
+    }
+}
